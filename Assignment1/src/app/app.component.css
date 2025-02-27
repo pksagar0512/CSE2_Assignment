@@ -1,0 +1,17 @@
+.head1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .mainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 100px;
+} */
