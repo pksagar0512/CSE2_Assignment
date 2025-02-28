@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  overflow: hidden;
+}
+
+.app-container {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.glassmorphism-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease-in-out;
+}
+
+.glassmorphism-box:hover {
+  transform: scale(1.05);
+}
+
+header {
+  color: white;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(45deg, #ff7eb3, #ff758c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(45deg, #1e3c72, #2a5298);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: linear-gradient(45deg, #2a5298, #1e3c72);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+}
