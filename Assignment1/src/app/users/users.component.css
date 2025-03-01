@@ -1,0 +1,64 @@
+.user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+  }
+  
+  .user-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .user-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .user-email {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .user-actions button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .user-actions button:first-child {
+    background: #007bff;
+    color: white;
+  }
+  
+  .user-actions button:first-child:hover {
+    background: #0056b3;
+  }
+  
+  .user-actions .logout {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .user-actions .logout:hover {
+    background: #c82333;
+  }
+  
