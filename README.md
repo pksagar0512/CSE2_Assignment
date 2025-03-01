@@ -1,47 +1,36 @@
-# Responsive Navigation Bar with Angular 17
+Assignment: Create a Responsive Navigation Bar with Angular 17
+Objective:
+Create a web application using Angular 17 that includes a responsive navigation bar with options for Home, About, Contact, Search, Login, and Logout. Each option should be linked to a dedicated component, and the application should use Angular routing to dynamically load the respective components.
 
-This project demonstrates how to create a **responsive navigation bar** using Angular 17. The navigation bar includes options for **Home**, **About**, **Contact**, **Search**, **Login**, and **Logout**. Each option is linked to a dedicated component, and the application uses Angular routing to dynamically load the respective components.
+When the application loads, the login page should be displayed as the home page, with the login form positioned on the right side of the screen.
 
-## Features
+Features:
+Responsive Navigation Bar:
 
-1. **Responsive Navigation Bar**:
-   - Collapses into a burger menu on screens smaller than 768px.
-   - Toggle the menu by clicking the burger icon (☰).
+Collapses into a burger menu on screens smaller than 768px.
 
-2. **Routing**:
-   - Each navigation option (`Home`, `About`, `Contact`, `Search`, `Login`, `Logout`) is linked to its respective component.
-   - Uses Angular routing for seamless navigation.
+Toggle the menu by clicking the burger icon (☰).
 
-3. **Search Functionality**:
-   - Includes a search input field.
-   - Logs the search query to the console when the user presses **Enter** or clicks the search button.
+Routing:
 
-4. **Login/Logout**:
-   - **Login**: Navigates to a login component where users can input their credentials.
-   - **Logout**: Displays a confirmation message indicating the user has logged out.
+Each navigation option (Home, About, Contact, Search, Login, Logout) is linked to its respective component.
 
-5. **Styling**:
-   - Clean and modern design with consistent colors across all components.
-   - Hover effects on navigation links for better user experience.
+Uses Angular routing for seamless navigation.
 
-## Setup Instructions
+Search Functionality:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/responsive-navbar.git
-   cd responsive-navbar
-Install Dependencies:
+Includes a search input field.
 
-bash
-Copy
-npm install
-Run the Application:
+Logs the search query to the console when the user presses Enter or clicks the search button.
 
-bash
-Copy
-ng serve
-Open the Application:
+Login/Logout:
 
-Navigate to http://localhost:4200 in your browser.
+Login: The login page should be displayed as the home page when the application loads. The login form should be positioned on the right side of the screen.
 
-Thank you
+Logout: Displays a confirmation message indicating the user has logged out.
+
+Styling:
+
+Clean and modern design with consistent colors across all components.
+
+Hover effects on navigation links for better user experience.
