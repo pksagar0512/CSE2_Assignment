@@ -1,0 +1,104 @@
+<div class="homepage-container">
+  <!-- Hero section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to Our Platform</h1>
+        <p class="hero-subtitle">The best solution for your business needs. Discover how we can help you grow and succeed.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn-primary">Get Started</a>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section class="features-section">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <h2 class="section-title">Our Features</h2>
+        <p class="section-subtitle">Discover what makes our platform stand out from the rest</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" *ngFor="let feature of features">
+          <div class="feature-icon">
+            <img [src]="feature.icon" [alt]="feature.title">
+          </div>
+          <div class="feature-divider"></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to get started?</h2>
+        <p>Join thousands of satisfied customers who trust our platform.</p>
+        <a href="#" class="cta-button">
+          Sign Up Now <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>Your Brand</h3>
+          <p>Providing innovative solutions since 2023.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a routerLink="/about">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Your Brand. All rights reserved.</p>
+        <p class="footer-note">Last updated: 2025   | Created by: Ayush Modi</p>
+      </div>
+    </div>
+  </footer>
+</div>
